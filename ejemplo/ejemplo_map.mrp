@@ -1,0 +1,38 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'ejemplo'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o ejemplo_map.ncd ejemplo.ngd ejemplo.pcf 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Thu Feb 14 17:20:01 2019
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   2
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:30 - LOC constraint J34 on a<0> is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:701 - PAD symbol "a<3>" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "a<3>" is not constrained (LOC) to a specific
+   location.
+
+Section 3 - Informational
+-------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------
