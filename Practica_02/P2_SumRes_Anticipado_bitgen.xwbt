@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=B:\Arquitectura\Practica_02\P2_SumRes_Anticipado.ncd
+OUTFILE=B:\Arquitectura\Practica_02\P2_SumRes_Anticipado.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=B:\Arquitectura\Practica_02
+LICENSE=WebPack
+USER_INFO=211668324_0_0_255

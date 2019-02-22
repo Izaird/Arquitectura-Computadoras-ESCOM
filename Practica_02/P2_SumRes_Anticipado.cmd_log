@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "B:/Arquitectura/Practica_02/P2_SumRes_Anticipado.xst" -ofn "B:/Arquitectura/Practica_02/P2_SumRes_Anticipado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 P2_SumRes_Anticipado.ngc P2_SumRes_Anticipado.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o P2_SumRes_Anticipado_map.ncd P2_SumRes_Anticipado.ngd P2_SumRes_Anticipado.pcf 
+par -w -intstyle ise -ol high -mt off P2_SumRes_Anticipado_map.ncd P2_SumRes_Anticipado.ncd P2_SumRes_Anticipado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml P2_SumRes_Anticipado.twx P2_SumRes_Anticipado.ncd -o P2_SumRes_Anticipado.twr P2_SumRes_Anticipado.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sumador_ucf.ucf -p xc7a100t-csg324-3 P2_SumRes_Anticipado.ngc P2_SumRes_Anticipado.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o P2_SumRes_Anticipado_map.ncd P2_SumRes_Anticipado.ngd P2_SumRes_Anticipado.pcf 
+par -w -intstyle ise -ol high -mt off P2_SumRes_Anticipado_map.ncd P2_SumRes_Anticipado.ncd P2_SumRes_Anticipado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml P2_SumRes_Anticipado.twx P2_SumRes_Anticipado.ncd -o P2_SumRes_Anticipado.twr P2_SumRes_Anticipado.pcf -ucf Sumador_ucf.ucf 
+bitgen -intstyle ise -f P2_SumRes_Anticipado.ut P2_SumRes_Anticipado.ncd 

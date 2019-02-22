@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=B:\Arquitectura\Practica_01\sumador.ncd
+OUTFILE=B:\Arquitectura\Practica_01\sumador.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=B:\Arquitectura\Practica_01
+LICENSE=WebPack
+USER_INFO=211668324_0_0_255

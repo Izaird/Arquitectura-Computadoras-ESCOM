@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=B:\Arquitectura\Practica_01\impact.xsl
+OUTFILE=B:\Arquitectura\Practica_01\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=B:\Arquitectura\Practica_01
+LICENSE=iMPACT
+USER_INFO=iMPACT

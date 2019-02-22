@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "B:/Arquitectura/Practica_01/sumador.xst" -ofn "B:/Arquitectura/Practica_01/sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -mt off sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sumandor_ufc.ucf -p xc7a100t-csg324-3 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -mt off sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf -ucf Sumandor_ufc.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sumandor_ufc.ucf -p xc7a100t-csg324-3 sumador.ngc sumador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sumandor_ufc.ucf -p xc7a100t-csg324-3 sumador.ngc sumador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sumandor_ufc.ucf -p xc7a100t-csg324-3 sumador.ngc sumador.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o sumador_map.ncd sumador.ngd sumador.pcf 
+par -w -intstyle ise -ol high -mt off sumador_map.ncd sumador.ncd sumador.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sumador.twx sumador.ncd -o sumador.twr sumador.pcf -ucf Sumandor_ufc.ucf 
+bitgen -intstyle ise -f sumador.ut sumador.ncd 
