@@ -1,0 +1,157 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf
+pinesALUNB.ucf
+
+Design file:              ALUNB.ncd
+Physical constraint file: ALUNB.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |cout           |   12.461|
+a<0>           |flag_c         |   12.053|
+a<0>           |flag_n         |   12.749|
+a<0>           |flag_ov        |   12.930|
+a<0>           |flag_z         |   12.965|
+a<0>           |res<0>         |   10.923|
+a<0>           |res<1>         |   11.720|
+a<0>           |res<2>         |   11.836|
+a<0>           |res<3>         |   12.335|
+a<1>           |cout           |    9.924|
+a<1>           |flag_c         |    9.516|
+a<1>           |flag_n         |   10.212|
+a<1>           |flag_ov        |   10.393|
+a<1>           |flag_z         |   10.428|
+a<1>           |res<1>         |    8.454|
+a<1>           |res<2>         |    9.299|
+a<1>           |res<3>         |    9.798|
+a<2>           |cout           |    9.250|
+a<2>           |flag_c         |    8.842|
+a<2>           |flag_n         |    9.538|
+a<2>           |flag_ov        |    9.719|
+a<2>           |flag_z         |    9.754|
+a<2>           |res<2>         |    8.113|
+a<2>           |res<3>         |    9.124|
+a<3>           |cout           |    8.873|
+a<3>           |flag_c         |    8.465|
+a<3>           |flag_n         |    8.530|
+a<3>           |flag_ov        |    8.885|
+a<3>           |flag_z         |    8.746|
+a<3>           |res<3>         |    8.116|
+b<0>           |cout           |   12.722|
+b<0>           |flag_c         |   12.314|
+b<0>           |flag_n         |   13.010|
+b<0>           |flag_ov        |   13.191|
+b<0>           |flag_z         |   13.226|
+b<0>           |res<0>         |   10.638|
+b<0>           |res<1>         |   10.921|
+b<0>           |res<2>         |   12.097|
+b<0>           |res<3>         |   12.596|
+b<1>           |cout           |   12.477|
+b<1>           |flag_c         |   12.069|
+b<1>           |flag_n         |   12.765|
+b<1>           |flag_ov        |   12.946|
+b<1>           |flag_z         |   12.981|
+b<1>           |res<1>         |   10.618|
+b<1>           |res<2>         |   11.852|
+b<1>           |res<3>         |   12.351|
+b<2>           |cout           |    9.135|
+b<2>           |flag_c         |    8.727|
+b<2>           |flag_n         |    9.423|
+b<2>           |flag_ov        |    9.604|
+b<2>           |flag_z         |    9.992|
+b<2>           |res<2>         |    9.008|
+b<2>           |res<3>         |    9.009|
+b<3>           |cout           |    9.193|
+b<3>           |flag_c         |    8.785|
+b<3>           |flag_n         |    9.883|
+b<3>           |flag_ov        |    9.558|
+b<3>           |flag_z         |   10.099|
+b<3>           |res<3>         |    9.469|
+cin            |cout           |   10.086|
+cin            |flag_c         |    9.678|
+cin            |flag_n         |   10.374|
+cin            |flag_ov        |   10.555|
+cin            |flag_z         |   10.590|
+cin            |res<0>         |    9.021|
+cin            |res<1>         |    9.155|
+cin            |res<2>         |    9.461|
+cin            |res<3>         |    9.960|
+op<0>          |cout           |    9.017|
+op<0>          |flag_c         |    8.609|
+op<0>          |flag_n         |    8.851|
+op<0>          |flag_ov        |    8.797|
+op<0>          |flag_z         |    9.549|
+op<0>          |res<0>         |    8.065|
+op<0>          |res<1>         |    8.184|
+op<0>          |res<2>         |    8.565|
+op<0>          |res<3>         |    8.437|
+op<1>          |cout           |    9.628|
+op<1>          |flag_c         |    9.220|
+op<1>          |flag_n         |    8.822|
+op<1>          |flag_ov        |    8.904|
+op<1>          |flag_z         |   10.033|
+op<1>          |res<0>         |    8.419|
+op<1>          |res<1>         |    8.365|
+op<1>          |res<2>         |    9.049|
+op<1>          |res<3>         |    8.408|
+sel_a          |cout           |    9.684|
+sel_a          |flag_c         |    9.276|
+sel_a          |flag_n         |    9.972|
+sel_a          |flag_ov        |   10.153|
+sel_a          |flag_z         |   10.188|
+sel_a          |res<0>         |    8.293|
+sel_a          |res<1>         |    8.876|
+sel_a          |res<2>         |    8.871|
+sel_a          |res<3>         |    9.558|
+sel_b          |cout           |   11.298|
+sel_b          |flag_c         |   10.890|
+sel_b          |flag_n         |   11.586|
+sel_b          |flag_ov        |   11.767|
+sel_b          |flag_z         |   11.802|
+sel_b          |res<0>         |    9.214|
+sel_b          |res<1>         |    9.498|
+sel_b          |res<2>         |   10.673|
+sel_b          |res<3>         |   11.172|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Feb 28 17:11:33 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 5002 MB
+
+
+

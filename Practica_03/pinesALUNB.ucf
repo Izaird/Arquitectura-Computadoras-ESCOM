@@ -1,0 +1,34 @@
+## Switches
+NET "a<0>"           LOC=H6 | IOSTANDARD=LVCMOS33; 
+NET "a<1>"           LOC=U12 | IOSTANDARD=LVCMOS33; 
+NET "a<2>"           LOC=U11 | IOSTANDARD=LVCMOS33; 
+NET "a<3>"           LOC=V10  | IOSTANDARD=LVCMOS33; 
+NET "b<0>"           LOC=T8 | IOSTANDARD=LVCMOS33; 
+NET "b<1>"           LOC=U8 | IOSTANDARD=LVCMOS33; 
+NET "b<2>"           LOC=R16  | IOSTANDARD=LVCMOS33; 
+NET "b<3>"           LOC=T13  | IOSTANDARD=LVCMOS33; 
+NET "cin"            LOC=R13 | IOSTANDARD=LVCMOS33; 
+NET "sel_a"          LOC=U18 | IOSTANDARD=LVCMOS33; 
+NET "sel_b"          LOC=T18 | IOSTANDARD=LVCMOS33;
+NET "op<0>"          LOC=R15 | IOSTANDARD=LVCMOS33; 
+NET "op<1>"          LOC=R17 | IOSTANDARD=LVCMOS33;
+
+## Leds
+
+NET "flag_ov"        LOC=V11 | IOSTANDARD=LVCMOS33; 
+NET "flag_n"         LOC=V12 | IOSTANDARD=LVCMOS33; 
+NET "flag_z"         LOC=V14 | IOSTANDARD=LVCMOS33; 
+NET "flag_c"         LOC=V15 | IOSTANDARD=LVCMOS33; 
+NET "cout"           LOC=U14 | IOSTANDARD=LVCMOS33; 
+NET "res<3>"         LOC=V16 | IOSTANDARD=LVCMOS33; 
+NET "res<2>"         LOC=U16 | IOSTANDARD=LVCMOS33; 
+NET "res<1>"         LOC=U17 | IOSTANDARD=LVCMOS33; 
+NET "res<0>"         LOC=V17 | IOSTANDARD=LVCMOS33; 
+
+//suma 11
+//resta 11
+//and 00
+//nand 10
+//or 10
+//nor 00
+//

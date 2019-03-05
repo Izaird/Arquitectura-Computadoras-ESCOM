@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Feb 28 17:10:57 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "flag_c" LOCATE = SITE "V15" LEVEL 1;
+COMP "cin" LOCATE = SITE "R13" LEVEL 1;
+COMP "flag_n" LOCATE = SITE "V12" LEVEL 1;
+COMP "res<0>" LOCATE = SITE "V17" LEVEL 1;
+COMP "res<1>" LOCATE = SITE "U17" LEVEL 1;
+COMP "res<2>" LOCATE = SITE "U16" LEVEL 1;
+COMP "res<3>" LOCATE = SITE "V16" LEVEL 1;
+COMP "flag_z" LOCATE = SITE "V14" LEVEL 1;
+COMP "sel_a" LOCATE = SITE "U18" LEVEL 1;
+COMP "sel_b" LOCATE = SITE "T18" LEVEL 1;
+COMP "op<0>" LOCATE = SITE "R15" LEVEL 1;
+COMP "op<1>" LOCATE = SITE "R17" LEVEL 1;
+COMP "flag_ov" LOCATE = SITE "V11" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "H6" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "U12" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "U11" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "V10" LEVEL 1;
+COMP "cout" LOCATE = SITE "U14" LEVEL 1;
+COMP "b<0>" LOCATE = SITE "T8" LEVEL 1;
+COMP "b<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "b<2>" LOCATE = SITE "R16" LEVEL 1;
+COMP "b<3>" LOCATE = SITE "T13" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.xst" -ofn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.syr" 
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.xst" -ofn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.syr" 
+xst -intstyle ise -ifn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.xst" -ofn "C:/Users/Usuario/Desktop/Arqui/Practica3/ALUNB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 ALUNB.ngc ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinesALUNB.ucf -p xc7a100t-csg324-1 ALUNB.ngc ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf pinesALUNB.ucf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinesALUNB.ucf -p xc7a100t-csg324-1 ALUNB.ngc ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf pinesALUNB.ucf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
+xst -intstyle ise -ifn "C:/Users/Alejandro Reyes/Desktop/practicas aaron/Practica3/ALUNB.xst" -ofn "C:/Users/Alejandro Reyes/Desktop/practicas aaron/Practica3/ALUNB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinesALUNB.ucf -p xc7a100t-csg324-1 "ALUNB.ngc" ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf pinesALUNB.ucf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinesALUNB.ucf -p xc7a100t-csg324-1 "ALUNB.ngc" ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf pinesALUNB.ucf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/Practica_03/ALUNB.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/Practica_03/ALUNB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinesALUNB.ucf -p xc7a100t-csg324-1 ALUNB.ngc ALUNB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALUNB_map.ncd ALUNB.ngd ALUNB.pcf 
+par -w -intstyle ise -ol high -mt off ALUNB_map.ncd ALUNB.ncd ALUNB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml ALUNB.twx ALUNB.ncd -o ALUNB.twr ALUNB.pcf -ucf pinesALUNB.ucf 
+bitgen -intstyle ise -f ALUNB.ut ALUNB.ncd 
