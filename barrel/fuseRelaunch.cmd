@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "B:/Arquitectura-Computadoras-ESCOM/barrel/barreltb_isim_beh.exe" -prj "B:/Arquitectura-Computadoras-ESCOM/barrel/barreltb_beh.prj" "work.barreltb" 
