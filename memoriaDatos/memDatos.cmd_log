@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.syr" 
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.syr" 
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.syr" 
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.syr" 
+xst -intstyle ise -ifn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.xst" -ofn "B:/Arquitectura-Computadoras-ESCOM/memoriaDatos/memDatos.syr" 

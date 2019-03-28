@@ -1,0 +1,2 @@
+vhdl work "memDatos.vhd"
+vhdl work "memTb.vhd"
